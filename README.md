@@ -154,7 +154,12 @@ All responses follow a uniform envelope:
 
 ## Screenshots
 
-> _Add screenshots here once the UI is running._
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
 
 | Page | Description |
 |------|-------------|
@@ -203,4 +208,6 @@ QunatCus/
 - **Pagination** — server-side pagination for large catalogs (10 k+ SKUs)
 - **Notifications** — email / Slack alert when a job completes or errors
 
-** Rajeev Ranjan | MNNIT ALLAHABAD **
+
+
+## Author : Rajeev Ranjan | MNNIT ALLAHABAD 
