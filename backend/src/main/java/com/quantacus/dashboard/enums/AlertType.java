@@ -1,0 +1,13 @@
+package com.quantacus.dashboard.enums;
+
+public enum AlertType {
+    MISSING_FIELD,
+    WEAK_DESCRIPTION,
+    PRICE_ABOVE_MRP,
+    PRICE_BELOW_MRP_FLOOR,
+    MISSING_IMAGE,
+    DUPLICATE_SKU,
+    DUPLICATE_TITLE,
+    LOW_QUALITY_SCORE,
+    EXTRACTION_CONFIDENCE_LOW
+}

@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: product-intelligence-dashboard
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/quantacus_db
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 110MB
+
+server:
+  port: 8080
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: method
+    tags-sorter: alpha
+
+app:
+  upload:
+    dir: uploads
+
+logging:
+  level:
+    com.quantacus: DEBUG
+    org.hibernate.SQL: WARN
